@@ -3,9 +3,9 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>se.backede</groupId>
-    <artifactId>parent</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <groupId>se.backede.parent</groupId>
+    <artifactId>webservice-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
     <properties>
@@ -92,23 +92,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <executions>
-                    <execution>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>write-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <outputFile>${basedir}/src/main/resources/app.properties</outputFile>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+            </plugin>            
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>${maven-release-plugin}</version>
