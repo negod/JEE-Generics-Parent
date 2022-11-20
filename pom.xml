@@ -5,7 +5,7 @@
 
     <groupId>se.backede.parent</groupId>
     <artifactId>webservice-parent</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>pom</packaging>
    
     <properties>
@@ -156,7 +156,7 @@
         <connection>scm:git:https://github.com/negod/JEE-Generics-Parent.git</connection>
         <developerConnection>scm:git:https://github.com/negod/JEE-Generics-Parent.git</developerConnection>
         <url>scm:git:https://github.com/negod/JEE-Generics-Parent.git</url>
-        <tag>HEAD</tag>
+        <tag>webservice-parent-1.2</tag>
     </scm>
 
 </project>
