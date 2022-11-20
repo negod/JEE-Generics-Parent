@@ -7,7 +7,7 @@
     <artifactId>webservice-parent</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+   
     <properties>
 
         <!-- MAVEN SETTINGS -->
@@ -141,14 +141,14 @@
 
     <distributionManagement>
         <repository>
-            <id>backede.releases</id>
+            <id>release</id>
             <name>Release Repository</name>
-            <url>http://192.168.2.140:8081/repository/maven-releases/</url>
-        </repository>
+            <url>http://192.168.2.131:8081/repository/maven-releases/</url>
+        </repository>        
         <snapshotRepository>
-            <id>backede.snapshots</id>
+            <id>snapshot</id>
             <name>Snapshot Repository</name>
-            <url>http://192.168.2.140:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.2.131:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
